@@ -99,6 +99,7 @@ public class MainActivity extends Activity {
 			unusableView.setVisibility(ScrollView.VISIBLE);
 			unusableText.setText(R.string.unreadable_message);
 			super.onResume();
+
 			return;
 		}
 		if (!FileHelper.isStorageWritable(this)) {
